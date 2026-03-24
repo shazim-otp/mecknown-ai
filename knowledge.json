@@ -145,4 +145,44 @@
   "what is low power mode": "Low power mode reduces energy consumption by shutting down unused peripherals in a microcontroller.",
   "what is iot microcontroller": "An IoT microcontroller is designed to connect devices to the internet and exchange data remotely.",
   "microcontroller in robotics": "Microcontrollers are used in robotics to control motors, sensors, and decision-making processes."
+
+  "meck": "Meck is a lightweight AI assistant developed by Mecknown. It is designed to run locally and provide fast, private responses without relying on external APIs.",
+  "what is meck": "Meck is an AI assistant created by Mecknown for offline and customizable usage.",
+  "who made meck": "Meck was developed by Shaazim under Mecknown.",
+  "meck ai": "Meck AI is a private and customizable AI assistant built by Mecknown.",
+  
+  "mecknown": "Mecknown is a technology company focused on robotics, IoT, AI systems, and innovative engineering solutions.",
+  "what is mecknown": "Mecknown is a tech company that builds robotics systems, AI tools, and smart electronic solutions.",
+  "who founded mecknown": "Mecknown was founded by Shaazim.",
+  "what does mecknown do": "Mecknown develops robotics projects, IoT systems, AI tools, and provides technical education and custom builds.",
+
+  "who are you": "I am Meck, an AI assistant developed by Mecknown.",
+  "what can you do": "I can answer questions, provide information, and assist with technical and general queries.",
+  "are you online": "I can work offline using local knowledge and memory.",
+  
+  "hello": "Hello, how can I assist you today?",
+  "hi": "Hi, how can I help you?",
+  "hey": "Hey, what do you need help with?",
+  
+  "what is ai": "Artificial Intelligence is the simulation of human intelligence in machines that are programmed to think and learn.",
+  "what is machine learning": "Machine learning is a subset of AI that allows systems to learn and improve from experience without being explicitly programmed.",
+  "what is iot": "IoT stands for Internet of Things, where devices are connected and communicate over the internet.",
+  "what is robotics": "Robotics is the field of designing, building, and operating robots.",
+  
+  "what is arduino": "Arduino is an open-source electronics platform based on easy-to-use hardware and software.",
+  "what is esp32": "ESP32 is a powerful microcontroller with built-in WiFi and Bluetooth, widely used in IoT projects.",
+  "what is raspberry pi": "Raspberry Pi is a small, affordable computer used for learning programming and building projects.",
+  
+  "what is python": "Python is a high-level programming language known for its simplicity and wide range of applications.",
+  "what is javascript": "JavaScript is a programming language used to create interactive websites.",
+  "what is html": "HTML is the standard language used to structure web pages.",
+  "what is css": "CSS is used to style and design web pages.",
+  
+  "what is electricity": "Electricity is the flow of electric charge, used to power devices and systems.",
+  "what is a sensor": "A sensor is a device that detects and responds to changes in the environment.",
+  
+  "who is elon musk": "Elon Musk is the CEO of Tesla and SpaceX.",
+  "what is google": "Google is a technology company known for its search engine and various internet services.",
+  "what is nasa": "NASA is the United States space agency responsible for space exploration and research."
+
 }
