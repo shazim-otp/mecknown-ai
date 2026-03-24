@@ -144,7 +144,7 @@
   "what is polling": "Polling is a method where the microcontroller continuously checks the status of an input device.",
   "what is low power mode": "Low power mode reduces energy consumption by shutting down unused peripherals in a microcontroller.",
   "what is iot microcontroller": "An IoT microcontroller is designed to connect devices to the internet and exchange data remotely.",
-  "microcontroller in robotics": "Microcontrollers are used in robotics to control motors, sensors, and decision-making processes."
+  "microcontroller in robotics": "Microcontrollers are used in robotics to control motors, sensors, and decision-making processes.",
 
   "meck": "Meck is a lightweight AI assistant developed by Mecknown. It is designed to run locally and provide fast, private responses without relying on external APIs.",
   "what is meck": "Meck is an AI assistant created by Mecknown for offline and customizable usage.",
