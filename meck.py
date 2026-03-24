@@ -18,9 +18,6 @@ MEM = load_json(MEM_FILE, {})
 
 # ---------- NORMALIZE ----------
 def normalize(text):
-    if not text:
-        return ""
-
     text = text.lower()
 
     remove_words = [
@@ -32,11 +29,10 @@ def normalize(text):
     for w in remove_words:
         text = text.replace(w, "")
 
+    # 🔥 CLEAN EXTRA SPACES
+    text = " ".join(text.split())
+
     return text.strip()
-
-def clean_text(text):
-    return re.sub(r"[^a-z0-9\s]", "", text)
-
 # ---------- MATCH ENGINE ----------
 def find_answer(q, source):
     if not q:
@@ -46,19 +42,24 @@ def find_answer(q, source):
     if q in source:
         return source[q]
 
-    # 2️⃣ contains match
+    # 2️⃣ try matching without prefixes
+    for k in source:
+        k_clean = normalize(k)
+        if q == k_clean:
+            return source[k]
+
+    # 3️⃣ partial match
     for k in source:
         if q in k or k in q:
             return source[k]
 
-    # 3️⃣ keyword scoring (improved)
+    # 4️⃣ keyword match
+    q_words = set(q.split())
     best_score = 0
     best_answer = None
 
-    q_words = set(q.split())
-
     for k, a in source.items():
-        k_words = set(k.split())
+        k_words = set(normalize(k).split())
         score = len(q_words & k_words)
 
         if score > best_score:
@@ -68,13 +69,12 @@ def find_answer(q, source):
     if best_score >= 1:
         return best_answer
 
-    # 4️⃣ fuzzy match (last fallback)
+    # 5️⃣ fuzzy match
     matches = difflib.get_close_matches(q, source.keys(), n=1, cutoff=0.6)
     if matches:
         return source[matches[0]]
 
     return None
-
 # ---------- SMART FALLBACK ----------
 def fallback_response(q):
     if not q:
