@@ -1,34 +1,20 @@
 import json
-import os
 import difflib
 import re
-
-from listen import listen
-from wake import WakeWord
 
 KB_FILE = "knowledge.json"
 MEM_FILE = "memory.json"
 
 # ---------- LOAD ----------
-with open(KB_FILE, "r") as f:
-    KB = json.load(f)
+def load_json(file, default):
+    try:
+        with open(file, "r") as f:
+            return json.load(f)
+    except:
+        return default
 
-try:
-    with open(MEM_FILE, "r") as f:
-        MEM = json.load(f)
-except:
-    MEM = {}
-
-# ---------- SPEAK ----------
-def speak(text):
-    if not text:
-        return
-
-    text = text.replace('"', '').replace("'", "")
-    print("MECK:", text)
-
-    os.system(f'pico2wave -w /tmp/meck.wav "{text}"')
-    os.system('aplay /tmp/meck.wav')
+KB = load_json(KB_FILE, {})
+MEM = load_json(MEM_FILE, {})
 
 # ---------- NORMALIZE ----------
 def normalize(text):
@@ -46,6 +32,7 @@ def normalize(text):
 def clean_text(text):
     return re.sub(r"[^a-z0-9\s]", "", text)
 
+# ---------- SPELL CORRECTION ----------
 def correct_spelling(query, keys):
     words = query.split()
     corrected = []
@@ -68,46 +55,7 @@ def find_answer(q, source):
             best_answer = a
     return best_answer
 
-# ---------- MEMORY ----------
-def save_memory():
-    with open(MEM_FILE, "w") as f:
-        json.dump(MEM, f, indent=2)
-
-def learn():
-    speak("What question should I remember?")
-    q = normalize(listen())
-
-    if not q:
-        speak("I did not hear the question.")
-        return
-
-    speak("What is the answer?")
-    a = listen()
-
-    if not a:
-        speak("I did not hear the answer.")
-        return
-
-    MEM[q] = a
-    save_memory()
-    speak("Saved.")
-
-def forget():
-    speak("Which question should I forget?")
-    q = normalize(listen())
-
-    if not q:
-        speak("I did not hear the question.")
-        return
-
-    if q in MEM:
-        del MEM[q]
-        save_memory()
-        speak("Deleted.")
-    else:
-        speak("Memory not found.")
-
-# ---------- HANDLE ----------
+# ---------- HANDLE (MAIN AI LOGIC) ----------
 def handle(text, web_mode=False):
     text = text.lower()
 
@@ -134,42 +82,3 @@ def handle(text, web_mode=False):
         return ans
 
     return "I do not have information about that yet."
-
-# ---------- MAIN ----------
-def main():
-    speak("MECK sleeping.")
-    wake = WakeWord()
-
-    awake = False
-
-    while True:
-        try:
-            if not awake:
-                wake.listen()
-                awake = True
-                speak("Yes?")
-                continue
-
-            command = listen()
-            if not command:
-                continue
-
-            command = command.lower()
-
-            if any(x in command for x in [
-                "sleep",
-                "go to sleep",
-                "stop listening"
-            ]):
-                speak("Going to sleep.")
-                awake = False
-                continue
-
-            response = handle(command)
-            speak(response)
-
-        except KeyboardInterrupt:
-            break
-
-if __name__ == "__main__":
-    main()
