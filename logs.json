@@ -1,0 +1,794 @@
+[
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 13:22:04"
+  },
+  {
+    "user": "unknown",
+    "question": "i need esp32",
+    "reply": "You can talk to me using voice or your phone.",
+    "time": "2026-01-05 13:22:27"
+  },
+  {
+    "user": "unknown",
+    "question": "esp32",
+    "reply": "ESP32 is a powerful microcontroller with built-in Wi-Fi and Bluetooth, used in IoT, automation, and real-time applications.",
+    "time": "2026-01-05 13:22:32"
+  },
+  {
+    "user": "unknown",
+    "question": "e s p 32",
+    "reply": "A 32-bit microcontroller offers high processing power and is used in advanced applications such as IoT devices and automation systems.",
+    "time": "2026-01-05 13:22:41"
+  },
+  {
+    "user": "unknown",
+    "question": "ok",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:22:50"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 13:25:34"
+  },
+  {
+    "user": "unknown",
+    "question": "hlo",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:25:35"
+  },
+  {
+    "user": "unknown",
+    "question": "how",
+    "reply": "i am trained to guide everyone about hardware and software so please avoid this type of questions ",
+    "time": "2026-01-05 13:25:36"
+  },
+  {
+    "user": "unknown",
+    "question": "what",
+    "reply": "My name is MECK.",
+    "time": "2026-01-05 13:25:39"
+  },
+  {
+    "user": "unknown",
+    "question": "when",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:25:44"
+  },
+  {
+    "user": "unknown",
+    "question": "ok",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:25:47"
+  },
+  {
+    "user": "unknown",
+    "question": "okkk",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:25:50"
+  },
+  {
+    "user": "unknown",
+    "question": "fuck",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:25:51"
+  },
+  {
+    "user": "unknown",
+    "question": "wikipedia",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:25:55"
+  },
+  {
+    "user": "unknown",
+    "question": "esp8266",
+    "reply": "ESP8266 is a low-cost Wi-Fi-enabled microcontroller used in IoT applications, capable of connecting devices to the internet.",
+    "time": "2026-01-05 13:25:59"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 13:26:48"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 13:28:56"
+  },
+  {
+    "user": "unknown",
+    "question": "who is elon musk",
+    "reply": "the ceo  of tesla and spacex",
+    "time": "2026-01-05 13:29:08"
+  },
+  {
+    "user": "unknown",
+    "question": "remember that elon",
+    "reply": "the ceo  of tesla and spacex",
+    "time": "2026-01-05 13:29:17"
+  },
+  {
+    "user": "unknown",
+    "question": "who is nicola tesla",
+    "reply": "Nikola Tesla was a Serbian-American inventor and electrical engineer. He is best known for his contributions to alternating current electricity systems.",
+    "time": "2026-01-05 13:29:32"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 13:42:44"
+  },
+  {
+    "user": "unknown",
+    "question": "i need to know who is tesla",
+    "reply": "i am trained to guide everyone about hardware and software so please avoid this type of questions ",
+    "time": "2026-01-05 13:43:01"
+  },
+  {
+    "user": "unknown",
+    "question": "i need to know about nikola tesla",
+    "reply": "Nikola Tesla was a Serbian-American inventor and electrical engineer. He is best known for his contributions to alternating current electricity systems.",
+    "time": "2026-01-05 13:43:12"
+  },
+  {
+    "user": "unknown",
+    "question": "who is Nicola Tesla",
+    "reply": "Nikola Tesla was a Serbian-American inventor and electrical engineer. He is best known for his contributions to alternating current electricity systems.",
+    "time": "2026-01-05 13:44:29"
+  },
+  {
+    "user": "unknown",
+    "question": "what is ESP 36",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:44:37"
+  },
+  {
+    "user": "unknown",
+    "question": "what is SP2 66",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 13:44:43"
+  },
+  {
+    "user": "unknown",
+    "question": "What's ur name",
+    "reply": "My name is MECK.",
+    "time": "2026-01-05 14:01:08"
+  },
+  {
+    "user": "unknown",
+    "question": "Who built u?",
+    "reply": "Shazim is the developer of MECK.",
+    "time": "2026-01-05 14:01:16"
+  },
+  {
+    "user": "unknown",
+    "question": "Change name of shazim to myran",
+    "reply": "Shazim is the developer of MECK.",
+    "time": "2026-01-05 14:01:35"
+  },
+  {
+    "user": "unknown",
+    "question": "What is 1+1",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:01:43"
+  },
+  {
+    "user": "unknown",
+    "question": "How many days in a week",
+    "reply": "i am trained to guide everyone about hardware and software so please avoid this type of questions ",
+    "time": "2026-01-05 14:01:56"
+  },
+  {
+    "user": "unknown",
+    "question": "What is a resistor",
+    "reply": "A sensor detects changes in the environment.",
+    "time": "2026-01-05 14:02:08"
+  },
+  {
+    "user": "unknown",
+    "question": "What is global warming",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:02:26"
+  },
+  {
+    "user": "unknown",
+    "question": "How to make a fan",
+    "reply": "i am trained to guide everyone about hardware and software so please avoid this type of questions ",
+    "time": "2026-01-05 14:02:58"
+  },
+  {
+    "user": "unknown",
+    "question": "How to make a motor",
+    "reply": "i am trained to guide everyone about hardware and software so please avoid this type of questions ",
+    "time": "2026-01-05 14:03:09"
+  },
+  {
+    "user": "unknown",
+    "question": "What is battery",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:03:18"
+  },
+  {
+    "user": "unknown",
+    "question": "What can I do",
+    "reply": "I can answer questions, remember things, and help you offline.",
+    "time": "2026-01-05 14:06:14"
+  },
+  {
+    "user": "unknown",
+    "question": "What is the capital of france",
+    "reply": "No, I do not use the internet.",
+    "time": "2026-01-05 14:06:43"
+  },
+  {
+    "user": "unknown",
+    "question": "Noice",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:07:00"
+  },
+  {
+    "user": "unknown",
+    "question": "Nice",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:07:14"
+  },
+  {
+    "user": "unknown",
+    "question": "pari",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:52:58"
+  },
+  {
+    "user": "unknown",
+    "question": "kuninn nilko?",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:53:05"
+  },
+  {
+    "user": "unknown",
+    "question": "why?",
+    "reply": "AI helps automate tasks and improve efficiency.",
+    "time": "2026-01-05 14:53:09"
+  },
+  {
+    "user": "unknown",
+    "question": "wtf?",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:53:15"
+  },
+  {
+    "user": "unknown",
+    "question": "how to make a bomb",
+    "reply": "i am trained to guide everyone about hardware and software so please avoid this type of questions ",
+    "time": "2026-01-05 14:53:23"
+  },
+  {
+    "user": "unknown",
+    "question": "how to connect vga to hdmi?",
+    "reply": "i am trained to guide everyone about hardware and software so please avoid this type of questions ",
+    "time": "2026-01-05 14:53:43"
+  },
+  {
+    "user": "unknown",
+    "question": "so what can you do?",
+    "reply": "I can answer questions, remember things, and help you offline.",
+    "time": "2026-01-05 14:53:54"
+  },
+  {
+    "user": "unknown",
+    "question": "but you dont even know what is vga and hdmi",
+    "reply": "I am MECK, your offline personal AI assistant.",
+    "time": "2026-01-05 14:54:10"
+  },
+  {
+    "user": "unknown",
+    "question": "i didnt even asked bruh",
+    "reply": "You can talk to me using voice or your phone.",
+    "time": "2026-01-05 14:54:19"
+  },
+  {
+    "user": "unknown",
+    "question": "sybau",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 14:54:25"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 15:03:20"
+  },
+  {
+    "user": "unknown",
+    "question": "meck",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 15:03:24"
+  },
+  {
+    "user": "unknown",
+    "question": "meck",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 15:03:26"
+  },
+  {
+    "user": "unknown",
+    "question": "meck ai",
+    "reply": "Yes, I am an artificial intelligence assistant.",
+    "time": "2026-01-05 15:03:29"
+  },
+  {
+    "user": "unknown",
+    "question": "ai",
+    "reply": "Yes, I am an artificial intelligence assistant.",
+    "time": "2026-01-05 15:03:32"
+  },
+  {
+    "user": "unknown",
+    "question": "hui",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 15:03:34"
+  },
+  {
+    "user": "unknown",
+    "question": "how are you",
+    "reply": "I am functioning perfectly.",
+    "time": "2026-01-05 15:03:38"
+  },
+  {
+    "user": "unknown",
+    "question": "so who are you",
+    "reply": "I am MECK, your offline personal AI assistant.",
+    "time": "2026-01-05 15:03:44"
+  },
+  {
+    "user": "unknown",
+    "question": "really",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 15:03:50"
+  },
+  {
+    "user": "unknown",
+    "question": "love",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 15:27:04"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 15:27:09"
+  },
+  {
+    "user": "unknown",
+    "question": "who is messi",
+    "reply": "messi is the goat of the football who has worldcup.",
+    "time": "2026-01-05 15:27:15"
+  },
+  {
+    "user": "unknown",
+    "question": "ronalso",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 15:53:07"
+  },
+  {
+    "user": "unknown",
+    "question": "ronaldo",
+    "reply": "Cristiano Ronaldo is a Portuguese professional footballer. He is considered one of the greatest football players of all time.",
+    "time": "2026-01-05 15:53:10"
+  },
+  {
+    "user": "unknown",
+    "question": "beckham",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 15:53:25"
+  },
+  {
+    "user": "unknown",
+    "question": "beckham",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 15:53:32"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 16:19:46"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 16:19:54"
+  },
+  {
+    "user": "unknown",
+    "question": "ronaldo",
+    "reply": "Cristiano Ronaldo is a Portuguese professional footballer. He is considered one of the greatest football players of all time.",
+    "time": "2026-01-05 16:19:58"
+  },
+  {
+    "user": "unknown",
+    "question": "Hey",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:25:52"
+  },
+  {
+    "user": "unknown",
+    "question": "Hello",
+    "reply": "Hello, nice to meet you.",
+    "time": "2026-01-05 16:25:56"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 16:34:12"
+  },
+  {
+    "user": "unknown",
+    "question": "Hey",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:34:42"
+  },
+  {
+    "user": "unknown",
+    "question": "Zjz",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:10"
+  },
+  {
+    "user": "unknown",
+    "question": "Zkzkk",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:12"
+  },
+  {
+    "user": "unknown",
+    "question": "Zkzk",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:13"
+  },
+  {
+    "user": "unknown",
+    "question": "Zkzkkz",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:14"
+  },
+  {
+    "user": "unknown",
+    "question": "Kzkzz",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:14"
+  },
+  {
+    "user": "unknown",
+    "question": "Zlz",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:15"
+  },
+  {
+    "user": "unknown",
+    "question": "Z",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:15"
+  },
+  {
+    "user": "unknown",
+    "question": "S",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:15"
+  },
+  {
+    "user": "unknown",
+    "question": "S",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:15"
+  },
+  {
+    "user": "unknown",
+    "question": "S",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:16"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:16"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:16"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:16"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:17"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:17"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:17"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:17"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:17"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:17"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:18"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:18"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:18"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:18"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:18"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:19"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:19"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:19"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:19"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:19"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:20"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:20"
+  },
+  {
+    "user": "unknown",
+    "question": "d",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:20"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:20"
+  },
+  {
+    "user": "unknown",
+    "question": "D",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:20"
+  },
+  {
+    "user": "unknown",
+    "question": "X",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:21"
+  },
+  {
+    "user": "unknown",
+    "question": "X",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:21"
+  },
+  {
+    "user": "unknown",
+    "question": "Dlodxoxxxxkdkldoxoxoxoxo",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:34"
+  },
+  {
+    "user": "unknown",
+    "question": ",ccr",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:46"
+  },
+  {
+    "user": "unknown",
+    "question": "Ff",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:37:49"
+  },
+  {
+    "user": "unknown",
+    "question": "Hehe",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 16:38:04"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 20:06:53"
+  },
+  {
+    "user": "unknown",
+    "question": "hlo",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 20:06:59"
+  },
+  {
+    "user": "unknown",
+    "question": "hlo",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-05 20:07:11"
+  },
+  {
+    "user": "unknown",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-05 20:27:20"
+  },
+  {
+    "user": "web-user",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-07 22:42:57"
+  },
+  {
+    "user": "web-user",
+    "question": "elon musk",
+    "reply": "the ceo  of tesla and spacex",
+    "time": "2026-01-07 22:43:02"
+  },
+  {
+    "user": "web-user",
+    "question": "microcontrollers",
+    "reply": "Microcontrollers are classified based on data width such as 8-bit, 16-bit, and 32-bit microcontrollers.",
+    "time": "2026-01-07 22:43:12"
+  },
+  {
+    "user": "web-user",
+    "question": "is there no 64",
+    "reply": "Shazim is the developer of MECK.",
+    "time": "2026-01-07 22:43:24"
+  },
+  {
+    "user": "web-user",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-07 22:43:38"
+  },
+  {
+    "user": "web-user",
+    "question": "hu",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-07 22:43:45"
+  },
+  {
+    "user": "web-user",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-07 22:43:48"
+  },
+  {
+    "user": "web-user",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-01-08 21:54:52"
+  },
+  {
+    "user": "web-user",
+    "question": "marijuana",
+    "reply": "I do not have information about that yet.",
+    "time": "2026-01-08 21:54:59"
+  },
+  {
+    "user": "web-user",
+    "question": "messi",
+    "reply": "messi is the goat of the football who has worldcup.",
+    "time": "2026-01-08 21:55:04"
+  },
+  {
+    "user": "web-user",
+    "question": "ronaldo",
+    "reply": "Cristiano Ronaldo is a Portuguese professional footballer. He is considered one of the greatest football players of all time.",
+    "time": "2026-01-08 21:55:10"
+  },
+  {
+    "user": "web-user",
+    "question": "i show speed",
+    "reply": "You can talk to me using voice or your phone.",
+    "time": "2026-01-08 21:55:18"
+  },
+  {
+    "user": "web-user",
+    "question": "HI",
+    "reply": "hi how can i guide you today",
+    "time": "2026-03-24 00:38:35"
+  },
+  {
+    "user": "web-user",
+    "question": "SHAZIM",
+    "reply": "Shazim is the developer of MECK.",
+    "time": "2026-03-24 00:38:42"
+  },
+  {
+    "user": "web-user",
+    "question": "hi",
+    "reply": "hi how can i guide you today",
+    "time": "2026-03-24 00:53:46"
+  }
+]

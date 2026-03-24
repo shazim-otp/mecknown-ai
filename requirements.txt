@@ -1,0 +1,10 @@
+numpy
+vosk
+sounddevice
+pvporcupine
+flask
+python-dotenv
+pyaudio
+requests
+
+

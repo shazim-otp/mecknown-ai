@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MECK – Knowledge Admin</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0b0b0b;
+  color:white;
+}
+header{
+  padding:16px;
+  text-align:center;
+  font-size:22px;
+  background:#000;
+}
+.container{padding:16px;}
+.card{
+  background:#111;
+  padding:14px;
+  border-radius:12px;
+  margin-bottom:16px;
+}
+input, textarea{
+  width:100%;
+  padding:10px;
+  margin-top:8px;
+  border-radius:8px;
+  border:none;
+  background:#222;
+  color:white;
+}
+button{
+  margin-top:10px;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  background:#1e90ff;
+  color:white;
+}
+.delete-btn{background:#ff4444;}
+</style>
+</head>
+
+<body>
+
+<header>MECK – Knowledge Admin</header>
+
+<div class="container">
+
+<div class="card">
+<h3>Add Knowledge</h3>
+<input id="q" placeholder="Question">
+<textarea id="a"></textarea>
+<button onclick="addKnowledge()">Add</button>
+</div>
+
+<div class="card">
+<h3>Stored Knowledge</h3>
+<div id="list"></div>
+</div>
+
+</div>
+
+<script>
+function load(){
+ fetch("/knowledge-data")
+ .then(r=>r.json())
+ .then(data=>{
+  const list=document.getElementById("list");
+  list.innerHTML="";
+  Object.keys(data).forEach(q=>{
+    const div=document.createElement("div");
+    div.innerHTML=`
+      <b>${q}</b>
+      <p>${data[q]}</p>
+      <button class="delete-btn" onclick="del('${q}')">Delete</button>
+    `;
+    list.appendChild(div);
+  });
+ });
+}
+
+function addKnowledge(){
+ fetch("/knowledge-add",{
+  method:"POST",
+  headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({
+    question:q.value,
+    answer:a.value
+  })
+ }).then(load);
+}
+
+function del(q){
+ fetch("/knowledge-delete",{
+  method:"POST",
+  headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({question:q})
+ }).then(load);
+}
+
+load();
+</script>
+
+</body>
+</html>
