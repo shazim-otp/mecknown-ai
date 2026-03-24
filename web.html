@@ -29,16 +29,14 @@ body{
   font-family:Inter,Segoe UI,Arial;
   background:var(--bg);
   color:var(--text);
-
   display:flex;
   flex-direction:column;
-
-  height:100dvh; /* 🔥 mobile fix */
+  height:100dvh;
 }
 
 /* ===== TOPBAR ===== */
 .topbar{
-  height:55px;
+  height:70px;
   flex-shrink:0;
   display:flex;
   align-items:center;
@@ -48,16 +46,22 @@ body{
 }
 
 .logo{
-  font-size:13px;
+  font-size:14px;
   letter-spacing:2px;
   color:var(--accent);
+  font-weight:600;
 }
 
-.sub{
+/* 🔥 BETA BADGE */
+.badge{
+  display:inline-block;
   font-size:10px;
-  color:#ffaa00;
-  margin-top:2px;
-  letter-spacing:1px;
+  padding:3px 8px;
+  border-radius:6px;
+  background:#ffaa00;
+  color:#000;
+  margin-top:4px;
+  font-weight:600;
 }
 
 /* ===== CHAT ===== */
@@ -116,6 +120,7 @@ footer button{
   background:var(--accent);
   color:#000;
   font-size:16px;
+  cursor:pointer;
 }
 
 /* ===== LOADING DOTS ===== */
@@ -155,7 +160,7 @@ footer button{
 <div class="topbar">
   <div>
     <div class="logo">MECKNOWN AI</div>
-    <div class="sub">AI still under construction</div>
+    <div class="badge">BETA</div>
   </div>
 </div>
 
