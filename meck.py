@@ -16,8 +16,15 @@ def load_json(file, default):
 KB = load_json(KB_FILE, {})
 MEM = load_json(MEM_FILE, {})
 
+# ---------- TEXT CLEANING ----------
+def clean_text(text):
+    return re.sub(r"[^a-z0-9\s]", "", text)
+
 # ---------- NORMALIZE ----------
 def normalize(text):
+    if not text:
+        return ""
+
     text = text.lower()
 
     remove_words = [
@@ -29,10 +36,13 @@ def normalize(text):
     for w in remove_words:
         text = text.replace(w, "")
 
-    # 🔥 CLEAN EXTRA SPACES
+    text = clean_text(text)
+
+    # remove extra spaces
     text = " ".join(text.split())
 
     return text.strip()
+
 # ---------- MATCH ENGINE ----------
 def find_answer(q, source):
     if not q:
@@ -42,10 +52,9 @@ def find_answer(q, source):
     if q in source:
         return source[q]
 
-    # 2️⃣ try matching without prefixes
+    # 2️⃣ normalized match
     for k in source:
-        k_clean = normalize(k)
-        if q == k_clean:
+        if q == normalize(k):
             return source[k]
 
     # 3️⃣ partial match
@@ -75,7 +84,8 @@ def find_answer(q, source):
         return source[matches[0]]
 
     return None
-# ---------- SMART FALLBACK ----------
+
+# ---------- FALLBACK ----------
 def fallback_response(q):
     if not q:
         return "Please ask something."
@@ -95,7 +105,7 @@ def fallback_response(q):
 def handle(text, web_mode=False):
     text = text.lower()
 
-    # direct identity override
+    # identity override
     if any(q in text for q in [
         "who is your developer",
         "who developed you",
@@ -104,7 +114,6 @@ def handle(text, web_mode=False):
         return "I am developed by Shaazim"
 
     q = normalize(text)
-    q = clean_text(q)
 
     # 1️⃣ MEMORY
     if q in MEM:
